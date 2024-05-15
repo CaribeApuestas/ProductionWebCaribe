@@ -2,14 +2,16 @@ import { AuthHandleContainer } from "../AuthHandleContainer"
 import Image from "next/image";
 import Link from "next/link";
 import styles from "./styles.module.css";
-import img from '../../../../public/caribeApuestaLogo.svg'
+import CaribeApuestaLogo from '../../../../public/caribeApuestaLogo.svg';
+import LogoHeader from '../../../../public/img/LogoHeader.png';
+
 export const TopHeader = () => {
     return (
         <div className={styles.HeaderContainer}>
             <div className={styles.Header_Title_Container}>
                 <div className={styles.Header_Title}>
                     <Image
-                        src={img}
+                        src={CaribeApuestaLogo}
                         alt={"Caribe Apuesta Logo"}
                         width={50} height={50}
                     />
@@ -18,8 +20,8 @@ export const TopHeader = () => {
             </div>
             <div className={styles.Header_Logo}>
                 <Image
-                    src={"/img/LogoHeader.png"}
-                    alt={"Caribe Apuesta Logo"}
+                    src={LogoHeader}
+                    alt={"Caribe Apuesta LogoHeader"}
                     width={921} height={379}
                 />
             </div>
