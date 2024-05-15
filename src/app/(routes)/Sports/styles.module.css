@@ -1,0 +1,20 @@
+.container {
+    gap: 1em;
+    margin: 0 auto;
+
+    width: 90%;
+    max-width: 1640px;
+    min-width: 320px;
+    margin: 10px auto;
+    margin-top: 2em;
+
+    display: flex;
+    flex-direction: column;
+}
+
+/* Responsive */
+@media (max-width: 990px) {
+    .container {
+        flex-direction: column;
+    }
+}

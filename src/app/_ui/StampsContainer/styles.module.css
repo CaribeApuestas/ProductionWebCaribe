@@ -1,0 +1,43 @@
+
+/* footer */
+
+
+.stamps_container {
+    width: 75%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 2em;
+    flex-wrap: wrap;
+}
+
+.stamp {
+    flex-grow: 1;
+    flex-basis: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.stamp h3 {
+    text-align: center;
+}
+
+.stampIcon_container {
+    width: 90%;
+    max-width: 100px;
+    min-width: 100px;
+    height: 10vh;
+    max-height: 100px;
+    position: relative;
+    min-height: 100px;
+    text-align: center;
+}
+
+@media (max-width: 600px) {
+    .stamps_container {
+        flex-direction: column;
+    }
+}

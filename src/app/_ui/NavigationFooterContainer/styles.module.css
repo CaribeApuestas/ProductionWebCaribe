@@ -1,0 +1,139 @@
+.container {
+    display: flex;
+    width: 90%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.navigationContainer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    gap: 1em;
+    flex-grow: 2;
+    padding: 8px 12px;
+    flex-wrap: wrap;
+}
+
+.subscribeContainer {
+    flex-grow: 1;
+}
+
+.Navigation h3,
+.subscribeContainer h3 {
+    font-weight: 400;
+    letter-spacing: 2px;
+    font-size: 22px;
+    position: relative;
+
+}
+
+.Navigation ul {
+    margin: 0;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 300px;
+    box-sizing: border-box;
+}
+
+.Navigation ul li a {
+    text-decoration: none;
+    color: #00ffff;
+    transition: all .5s;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.Navigation ul li:hover a,
+.Navigation ul li.active a {
+    color: white;
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
+}
+
+.form {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.formGroup {
+    display: flex;
+    justify-content: center;
+}
+
+.caribeInput {
+    background-color: transparent;
+    color: var(--primary-font-color);
+    border: 1px solid var(--secondary-bg-color);
+    border-radius: 6px;
+    padding: 8px 12px;
+    box-sizing: border-box;
+    width: 100%;
+    max-width: 300px;
+    letter-spacing: 2px;
+    height: 60px;
+    font-weight: 400;
+    font-size: 1vw;
+    box-sizing: border-box;
+}
+
+.caribeInput::placeholder {
+    color: var(--primary-font-color);
+}
+
+.caribeBtn {
+    background-color: var(--secondary-bg-color);
+    border-radius: 6px;
+    letter-spacing: 2px;
+    height: 60px;
+    border: 2px solid var(--secondary-bg-color);
+    cursor: pointer;
+    font-weight: 700;
+    color: var(--secondary-font-color);
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    transition: all .3s linear;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 1vw;
+    margin: 0 auto;
+}
+
+.caribeBtn:hover {
+    border: 2px solid #0ff;
+    background-color: #01011b;
+    color: var(--primary-font-color);
+}
+
+/* Responsive */
+@media (max-width: 990px) {
+    .container {
+        width: 100%;
+    }
+
+    .caribeInput {
+        font-size: 1em;
+        margin: 3px;
+    }
+
+    .caribeBtn {
+        font-size: 1em;
+        width: 90%;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+
+    .caribeBtn,
+    .caribeInput {
+        font-size: 18px;
+    }
+}

@@ -1,0 +1,347 @@
+/* For production Home */
+.prevLoginContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 320px;
+}
+
+.prevLogin_title {
+    font-size: 1rem;
+    text-align: center;
+    letter-spacing: 5px;
+    font-weight: 400;
+    color: #0ff;
+}
+
+.prevLogin_linksContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 300px;
+}
+
+.prevLogin_links {
+    background-color: #0ff;
+    border-radius: 6px;
+    letter-spacing: 2px;
+    height: 36px;
+    border: 2px solid #0ff;
+    cursor: pointer;
+    font-family: "gotham-black";
+    font-weight: 700;
+    color: #01011b;
+    text-align: center;
+    width: 100%;
+    max-width: 320px;
+    transition: all .3s linear;
+    line-height: 2;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+.prevLogin_links:hover {
+    border: 2px solid #0ff;
+    background-color: #01011b;
+    color: #0ff;
+}
+
+/* For future web client Home*/
+.loginContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    max-width: 420px;
+    height: 16vh;
+    max-height: 200px;
+}
+
+.login_title {
+    font-size: 1.8vw;
+    text-align: center;
+    letter-spacing: 5px;
+    color: var(--primery-font-color);
+    margin: 0;
+    margin-bottom: 8px;
+    font-weight: 400;
+}
+
+.login_linksContainer {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    gap: .5rem;
+}
+
+.login_links {
+    background-color: var(--secondary-bg-color);
+    border-radius: 6px;
+    letter-spacing: 2px;
+    height: 36px;
+    border: 2px solid var(--secondary-bg-color);
+    cursor: pointer;
+    font-weight: 700;
+    color: var(--secondary-font-color);
+    text-align: center;
+    width: 100%;
+    max-width: 320px;
+    transition: all .3s linear;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 1vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_links:hover {
+    border: 2px solid #0ff;
+    background-color: #01011b;
+    color: var(--primary-font-color);
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 1em;
+}
+
+.formGroup {
+    width: 50%;
+}
+
+.loginForm_content {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: .5rem;
+    width: 100%;
+}
+
+.loginInput {
+    background-color: transparent;
+    color: var(--primary-font-color);
+    border: 1px solid var(--secondary-bg-color);
+    border-radius: 6px;
+    padding: 8px 12px;
+    box-sizing: border-box;
+    width: 100%;
+    letter-spacing: 2px;
+    height: 36px;
+    font-weight: 400;
+    max-width: 320px;
+    font-size: 1vw;
+    box-sizing: border-box;
+}
+
+.loginInput::placeholder {
+    color: var(--primary-font-color);
+}
+
+.errorInput {
+    border: 1px solid var(--error-color);
+    color: var(--error-color);
+    background: #ff000017;
+}
+
+.errorInput::placeholder {
+    color: var(--error-color);
+}
+
+.userAdminLinkContainer {
+    height: 20px;
+    margin-top: 3px;
+}
+
+.userAdminLink {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+}
+
+/* user online */
+.userOnline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.userOnlineContainer {
+    display: grid;
+    grid-template-areas:
+        "info info info btn btn"
+        "info info info btn btn";
+    gap: 6px;
+}
+
+.userOnlineInfo {
+    grid-area: info;
+    font-size: 16px;
+    font-family: 'gotham-light';
+}
+
+.userOnlineText {
+    margin: 0px;
+    font-size: 22px;
+}
+
+.userOnline-text span {
+    font-family: 'gotham-black';
+    font-weight: bold;
+}
+
+.userOnlineClose {
+    grid-area: btn;
+}
+
+.userConfigBtn {
+    background-color: transparent;
+    border: 1px solid #01011b;
+    border-radius: 8px;
+    height: 100%;
+    transition: 300ms all linear;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.userConfigBtn:hover .icon{
+    animation: rotating 2s linear infinite;
+} 
+
+.userOnline-close-btn:hover {
+    color: cyan;
+    background-color: #01011b;
+    border: 2px solid cyan;
+}
+
+.userOnline-close-btn:focus {
+    outline: none;
+}
+
+/* user balance */
+
+p.userBalanceText {
+    font-size: 22px;
+    display: flex;
+    gap: 8px;
+    margin: 0;
+}
+
+.userBalance {
+    font-family: gotham-black;
+}
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.tooltip .tooltiptext {
+    width: 150px;
+    visibility: hidden;
+    background-color: #01011b;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 12px;
+    border: 2px solid cyan;
+    /* Use half of the width (120/2 = 60), to center the tooltip */
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 10000;
+    top: 100%;
+    left: 50%;
+    margin-left: -60px;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.tooltip .tooltiptext .group {
+    margin: 8px 0px;
+    display: block;
+    color: cyan;
+    font-family: 'gotham-light';
+    text-align: left;
+    font-size: 14px;
+}
+
+.tooltip .tooltiptext .group .group__title {
+    text-transform: capitalize;
+}
+
+.tooltip .tooltiptext .group .group__amount {
+    font-family: 'gotham-black';
+}
+
+/* animations */ 
+@keyframes rotating {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.rotating {
+    animation: rotating 2s linear infinite;
+}
+
+@media (max-width: 990px) {
+    .login_title {
+        font-size: 1em;
+    }
+
+    .login_links,
+    .loginInput {
+        font-size: 1em;
+        margin: 3px;
+    }
+
+    .login_linksContainer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .loginForm {
+        flex-direction: column-reverse;
+    }
+
+    .loginForm_content {
+        flex-direction: column;
+    }
+
+    .formGroup {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .login_linksContainer .login_links:first-child {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+
+    .login_links,
+    .loginInput {
+        font-size: 18px;
+    }
+
+    .login_title {
+        font-size: 36px;
+    }
+}

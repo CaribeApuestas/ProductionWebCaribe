@@ -1,0 +1,105 @@
+.container {
+    width: 75%;
+    max-width: 1640px;
+    min-width: 320px;
+    margin: 10px auto;
+    margin-top: 2em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 5px;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+
+    padding-bottom: 4em;
+}
+
+.headerFeatureContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.headerFeatureContainer h2 {
+    font-size: 3vw;
+    font-weight: 400;
+    letter-spacing: 24px;
+    margin-bottom: 18px;
+    margin-top: 0;
+    text-align: center;
+}
+
+.headerFeatureContainer p {
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    line-height: 1.5;
+    text-align: left;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.featuredGamesContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 2em;
+}
+
+.divider {
+    width: 2px;
+    background: #ffd70099;
+}
+/* FeaturedGames */
+
+.dots li button:before {
+    opacity: 1;
+    color: white;
+    font-size: 12px;
+}
+
+.dots :global(li.slick-active) button:before {
+    opacity: 1;
+    color: var(--primery-font-color) !important;
+}
+
+
+/* Responsive */
+@media (min-width: 1400px) {
+    .featuredGames {
+        width: 30%;
+        flex-grow: 1;
+    }
+
+    .featuredGamesContainer {
+        flex-direction: row;
+    }
+}
+
+/* Responsive */
+@media (max-width: 990px) {
+    .container {
+        width: 95%;
+    }
+
+    .headerFeatureContainer h2 {
+        font-size: 5vw;
+    }
+}
+
+
+@media (max-width: 700px) {
+    .headerFeatureContainer p {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 600px) {
+    .headerFeatureContainer h2 {
+        letter-spacing: 16px;
+    }
+}

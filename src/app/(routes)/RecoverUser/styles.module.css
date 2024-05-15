@@ -1,0 +1,41 @@
+.container {
+    gap: 1em;
+    margin: 0 auto;
+
+    width: 90%;
+    max-width: 1640px;
+    min-width: 320px;
+    margin: 10px auto;
+    margin-top: 2em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container h2 {
+    font-size: 2vw;
+    font-weight: 400;
+    letter-spacing: 14px;
+    margin-bottom: 18px;
+    margin-top: 0;
+    text-align: center;
+}
+
+.container p {
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    line-height: 1.5;
+    text-align: left;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive */
+@media (max-width: 990px) {
+    .container h2 {
+        font-size: 5vw;
+    }
+}

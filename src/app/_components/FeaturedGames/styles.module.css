@@ -1,0 +1,29 @@
+/* FeaturedGames */
+.featuredGamesContainer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 2em;
+} 
+.dots li button:before {
+    opacity: 1;
+    color: white;
+    font-size: 12px;
+}
+
+.dots :global(li.slick-active) button:before {
+    opacity: 1;
+    color: var(--primery-font-color) !important;
+}
+
+/* Responsive */
+@media (min-width: 1400px) {
+    .featuredGames {
+        width: 30%;
+        flex-grow: 1;
+    }
+
+    .featuredGamesContainer {
+        flex-direction: row;
+    }
+}

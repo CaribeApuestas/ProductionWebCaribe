@@ -1,0 +1,199 @@
+.featuredGame {
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    width: 100%;
+}
+
+/* Header Game */
+.headerGame {
+    width: 100%;
+    max-height: 300px;
+    min-height: 80px;
+    height: 20vh;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00ffff40;
+}
+
+.headerGameLogosContainer {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+    flex-grow: 1;
+}
+
+.headerGameInfo h3 {
+    margin: 0;
+    font-size: 15px;
+    color: white;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* Body Game */
+
+.bodyGame {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.betsForGame {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.chanceBar {
+    width: 100% ;
+    background-color: white;
+    height: 20px;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.chanceBar .Barvariant1 {
+    background-color: white;
+}
+
+.chanceBar .Barvariant2 {
+    background-color: #999999;
+}
+
+.chanceBar .Barvariant3 {
+    background-color: cyan;
+}
+
+.chanceBar .Barvariant1,
+.chanceBar .Barvariant2,
+.chanceBar .Barvariant3 {
+    top: 0;
+    left: 0;
+    text-align: center;
+    color: #01011b;
+    font-family: 'gotham-black';
+}
+
+.stateBet {
+    flex-grow: 1;
+    width: 30%;
+}
+
+.stateBetDraw {
+    flex-grow: 1;
+    width: 40%;
+}
+
+.stateBet h4,
+.stateBetDraw h4 {
+    font-size: 18px;
+    color: white;
+    margin-bottom: 0;
+}
+
+.stateBet h5,
+.stateBetDraw h5 {
+    font-size: 18px;
+    color: cyan;
+    font-weight: 700;
+    margin-top: 0;
+
+}
+
+.gameStatsContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1em;
+}
+
+.gameStats {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-weight: 800;
+    color: white;
+}
+
+.result {
+    flex-grow: 1;
+    width: 30%;
+    text-align: center;
+}
+
+.resultPointer {
+    flex-grow: 1;
+    width: 40%;
+    text-align: center;
+}
+
+.team1Winner {
+    background: linear-gradient(89.92deg, #00FFFF 0.08%, rgba(103, 237, 237, 0.524261) 51.06%, rgba(217, 217, 217, 0) 99.95%);
+}
+
+.team2Winner {
+    background: linear-gradient(89.92deg, rgba(217, 217, 217, 0) 0.08%, rgba(103, 237, 237, 0.524261) 51.06%, #00FFFF 99.95%);
+}
+
+/* Footer Game */
+
+.footerGame {
+    width: 95%;
+    margin: 10px auto;
+}
+
+.linkscontainer {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.linkscontainer a {
+    background-color: var(--primary-bg-color);
+    border-radius: 6px;
+    letter-spacing: 2px;
+    height: 36px;
+    border: 2px solid var(--secondary-bg-color);
+    cursor: pointer;
+    font-weight: 700;
+    color: var(--primary-font-color);
+    text-align: center;
+    width: 100%;
+    max-width: 320px;
+    transition: all .3s linear;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    flex-grow: 1;
+}
+
+.linkscontainer a:hover {
+    border: 2px solid #01011b;
+    background-color: #0ff;
+    color: var(--secondary-font-color);
+}
+
+.footerGame p {
+    text-align: center;
+    color: #ffd70099;
+    font-size: 12px;
+    font-weight: 400;
+}

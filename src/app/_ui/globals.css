@@ -1,0 +1,75 @@
+:root {
+    --primary-bg-color: #01011b;
+    --primery-font-color: #00ffff;
+    --secondary-bg-color: #00ffff;
+    --secondary-font-color: #01011b;
+    --error-color: red;
+}
+
+* {
+    scrollbar-color: cyan transparent;
+}
+
+body {
+    background-color: var(--primary-bg-color);
+    color: var(--primery-font-color);
+    height: 100vh;
+}
+
+header {
+    width: 100%;
+}
+
+/* footer */
+.Layout_footer {
+    width: 75%;
+    margin: 4em auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+}
+
+.footer_details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 100%;
+}
+
+.footer_details .footer_principalDetail p {
+    margin: 5px;
+    font-size: 18px;
+}
+
+.footer_details p {
+    font-size: 18px;
+    margin-bottom: 0;
+}
+
+.errorMsg {
+    color: white;
+}
+
+/* Responsive */
+@media (max-width: 990px) {
+    header .HeaderContainer {
+        display: none;
+    }
+
+    .mainContent {
+        margin-top: 95px;
+    }
+
+    .Layout_footer {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+    .Header_Title a {
+        font-size: 36px;
+    }
+}

@@ -1,0 +1,40 @@
+.SliderContainer {
+    width: 75%;
+    max-width: 1640px;
+    min-width: 320px;
+    margin: 0 auto;
+    margin-top: 2em;
+}
+
+.SliderItem {
+    height: 50vh;
+    max-height: 480px;
+    min-height: 200px;
+    position: relative;
+}
+
+.SliderItem h3 {
+    color: var(--secondary-font-color);
+}
+
+.dots li button:before {
+    opacity: 1;
+    color: white;
+    font-size: 12px;
+}
+
+.dots :global(li.slick-active) button:before {
+    opacity: 1;
+    color: var(--primery-font-color) !important;
+}
+
+/* Responsive */
+@media (max-width: 990px) {
+    .SliderContainer {
+        width: 95%;
+    }
+
+    .SliderItem {
+        height: 25vh;
+    }
+}

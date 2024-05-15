@@ -1,0 +1,84 @@
+.container {
+    width: 75%;
+    max-width: 1640px;
+    min-width: 320px;
+    margin: 10px auto;
+    margin-top: 2em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border: 2px solid cyan;
+    border-radius: 5px;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    padding-bottom: 2em;
+}
+
+.headerAwarenessAreaContainer h2 {
+    font-size: 3vw;
+    font-weight: 400;
+    letter-spacing: 24px;
+    margin-bottom: 18px;
+    margin-top: 0;
+    text-align: center;
+}
+
+.headerAwarenessAreaContainer p {
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    line-height: 22px;
+    text-align: justify;
+}
+
+.container p mark {
+    background-color: transparent;
+    color: cyan;
+}
+
+.AwarenessAreaContentContainer h3 {
+    font-size: 1em;
+}
+
+.AwarenessAreaContentContainer p {
+    font-size: 18px;
+    font-weight: 400;
+    color: white;
+    line-height: 22px;
+    text-align: justify;
+}
+
+.container ul {
+    list-style: none;
+}
+
+/* Responsive */
+@media (max-width: 990px) {
+    .container {
+        width: 95%;
+    }
+
+    .headerAwarenessAreaContainer h2 {
+        font-size: 5vw;
+    }
+
+    .AwarenessAreaContentContainer {
+        width: 90%;
+    }
+}
+
+@media (max-width: 700px) {
+    .headerAwarenessAreaContainer p {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 600px) {
+    .headerAwarenessAreaContainer h2 {
+        letter-spacing: 12px;
+    }
+}

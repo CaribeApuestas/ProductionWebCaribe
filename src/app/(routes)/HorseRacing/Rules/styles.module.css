@@ -1,0 +1,165 @@
+.container {
+    flex-basis: 0;
+    flex-grow: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.container h2 {
+    font-size: 2vw;
+    font-weight: 400;
+    letter-spacing: 14px;
+    margin-bottom: 18px;
+    margin-top: 0;
+    text-align: center;
+}
+
+.container p {
+    font-size: 12px;
+    font-weight: 400;
+    color: white;
+    line-height: 1.5;
+    text-align: left;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1);
+}
+
+.mt_1 {
+    margin-top: 1em;
+}
+
+.container p mark {
+    background-color: transparent;
+    color: white;
+    font-weight: bold;
+}
+
+/* Table */
+.tableContainer {
+    width: 100%;
+    overflow-x: auto;
+}
+
+.tableContainer table {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+    font-size: 12px;
+    border-bottom: 2px solid cyan;
+}
+
+.tableContainer table thead {
+    border-top: 2px solid cyan;
+    border-bottom: 2px solid cyan;
+}
+
+.tableContainer table tbody {
+    font-size: 1.2em;
+    color: white;
+    font-weight: 400;
+}
+
+.tableContainer table tbody tr {
+    transition: all .1s linear;
+}
+
+.tableContainer table tbody tr:hover {
+    background-color: cyan;
+    color: var(--primary-bg-color);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.tableContainer table tbody td {
+    padding: 0px 16px;
+    vertical-align: baseline;
+}
+
+.tableContainer table tbody:before {
+    content: '';
+    display: block;
+    height: 20px;
+}
+
+.tableContainer table tbody:after {
+    content: '';
+    display: block;
+    height: 20px;
+}
+
+.tableContainer table thead th {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.tableContainer .classRace table thead tr th {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 25%;
+    max-width: 300px;
+}
+
+.fullColumn {
+    min-width: 900px;
+}
+
+.marginTop_off {
+    margin-top: 0;
+}
+
+.marginBottom_off {
+    margin-bottom: 0;
+}
+
+.txtAlign_left {
+    text-align: left;
+}
+
+.exoticsList .header,
+.exoticsList .contentheader {
+    border: 2px solid cyan;
+    width: 100%;
+    padding: 8px 4px;
+    color: white;
+    margin: 0;
+}
+
+.exoticsList .contentheader {
+    border-top: none;
+}
+
+.exoticsList h4 {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.exoticsList h5 {
+    font-size: 16px;
+}
+
+.exoticsList h4,
+.exoticsList h5 {
+    margin: 0;
+}
+
+.content {
+    border: 2px solid cyan;
+    padding: 8px 4px;
+    width: 100%;
+    border-top: none;
+}
+
+.content ul {
+    list-style: none;
+}
+
+.content>ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Responsive */
+@media (max-width: 990px) {
+    .container h2 {
+        font-size: 5vw;
+    }
+}

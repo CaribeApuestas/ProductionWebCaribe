@@ -1,0 +1,71 @@
+
+/* Header Menu */
+.HeaderContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 20vh;
+    max-height: 200px;
+    justify-content: space-between;
+}
+
+.HeaderContainer .Header_Title_Container,
+.HeaderContainer .Header_Login_Container {
+    flex-grow: 1;
+    width: 20%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    padding-bottom: 1em;
+
+}
+
+.HeaderContainer .Header_Logo {
+    flex-grow: 2;
+    display: flex;
+    justify-content: center;
+}
+
+.Header_Title_Container {
+    justify-content: flex-end;
+}
+
+.Header_Login_Container {
+    justify-content: start;
+}
+
+.Header_Title {
+    width: 100%;
+    max-width: 420px;
+}
+
+.Header_Title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.Header_Title a {
+    font-weight: 400;
+    margin: 0;
+    letter-spacing: 1px;
+    font-size: 1.4vw;
+    text-decoration: none;
+    color: #00ffff;
+}
+
+.Header_Logo img {
+    height: 20vh;
+    max-height: 200px;
+    max-width: 500px;
+    width: 100%;
+}
+
+/* Responsive */
+@media (max-width: 990px) {
+    .HeaderContainer {
+        display: none;
+    }
+
+}
