@@ -7,6 +7,10 @@ import { PrevLogin } from "../../../Login";
 import { includePath } from "@/app/helpers/includePath";
 import { usePathname } from "next/navigation";
 
+
+import CaribeApuestaLogo from '../../../../../../public/caribeApuestaLogo.svg';
+import BurguerIcon from '../../../../../../public/icon/BurguerIcon.svg'
+
 export const MobileNavigationMenu = () => {
     const actualPathname = usePathname();
     const [isOpen, setOpen] = useState(false);
@@ -19,14 +23,14 @@ export const MobileNavigationMenu = () => {
             <div className={styles.ToggleContainer}>
                 <div className={styles.Toggle_Title}>
                     <Image
-                        src={"/caribeApuestaLogo.svg"}
+                        src={CaribeApuestaLogo}
                         alt={"Caribe Apuesta Logo"}
                         width={50} height={50}
                     />
                     <Link href="/">CARIBE APUESTA</Link>
                 </div>
                 <div className={styles.Toggle_btn} onClick={handleOpenMenu}>
-                    <Image src="/icon/BurguerIcon.svg" alt="Burguer icon" width={25} height={25} />
+                    <Image src={BurguerIcon} alt="Burguer icon" width={25} height={25} />
                 </div>
             </div>
             <nav className={`${styles.navigation} ${isOpen ? styles.isOpen : ""}`}>
