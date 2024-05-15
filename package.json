@@ -26,6 +26,7 @@
     "react-input-mask": "^2.0.4",
     "react-select": "^5.8.0",
     "react-slick": "^0.30.2",
+    "sharp": "^0.33.3",
     "slick-carousel": "^1.8.1",
     "ts-jest": "^29.1.2",
     "yup": "^1.4.0"
