@@ -19,16 +19,13 @@ export default function Rules() {
         <div className={styles.container}>
             <Collapsible title={"1.- REGLAS GENERALES. "}>
                 <p>
-                    <span>
-                        1.1
-                    </span>
-                    - Solo se permite una repetición de ticket por jugada.
+                    <span>1.1</span> - Las reglas en <mark>CARIBEAPUESTA</mark> existen para proteger tanto a la compañía como al apostador.
                 </p>
                 <p>
-                    <span>1.2</span> - Las reglas en <mark>CARIBEAPUESTA</mark> existen para proteger tanto a la compañía como al apostador.
+                    <span>1.2</span> - Todas las apuestas de <mark>CARIBEAPUESTA</mark> están sujetas a estas reglas.
                 </p>
                 <p>
-                    <span>1.3</span> - Todas las apuestas de <mark>CARIBEAPUESTA</mark> están sujetas a estas reglas.
+                    <span>1.3</span> -  Solo se permite un <span>( 1 )</span> ticket repetido con la misma jugada.
                 </p>
                 <p>
                     <span>1.4</span> - <mark>CARIBEAPUESTA</mark> se reserva el derecho de eliminar cualquier apuesta realizada en una línea con error: Número de Rotación, Nombres, Cuotas, Horarios, Máximo de una Apuesta entre otros. Como también eliminar apuestas realizadas después de que el juego ha comenzado.
