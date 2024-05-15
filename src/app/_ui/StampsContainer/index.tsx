@@ -1,13 +1,18 @@
 import Image from "next/image";
 import styles from "./styles.module.css";
 
+import SelloCalidad from '../../../../public/img/Sello_Calidad.png'
+import SelloLibreDeVirus from '../../../../public/img/Sello_LibreDeVirus.png'
+import SelloMayorDeEdad from '../../../../public/img/Sello_MayorDeEdad.png'
+import Sello_Encriptado from '../../../../public/img/Sello_Encriptado.png'
+
 export const StampsContainer = () => {
     return (
         <div className={styles.stamps_container}>
             <div className={styles.stamp}>
                 <div className={styles.stampIcon_container}>
                     <Image
-                        src={"/img/Sello_LibreDeVirus.png"}
+                        src={SelloCalidad}
                         alt={"Caribe Apuesta Logo"}
                         width={100}
                         height={100}
@@ -18,7 +23,7 @@ export const StampsContainer = () => {
             <div className={styles.stamp}>
                 <div className={styles.stampIcon_container}>
                     <Image
-                        src={"/img/Sello_Calidad.png"}
+                        src={SelloLibreDeVirus}
                         alt={"Caribe Apuesta Logo"}
                         width={100}
                         height={100}
@@ -29,7 +34,7 @@ export const StampsContainer = () => {
             <div className={styles.stamp}>
                 <div className={styles.stampIcon_container}>
                     <Image
-                        src={"/img/Sello_MayorDeEdad.png"}
+                        src={SelloMayorDeEdad}
                         alt={"Caribe Apuesta Logo"}
                         width={100}
                         height={100}
@@ -40,7 +45,7 @@ export const StampsContainer = () => {
             <div className={styles.stamp}>
                 <div className={styles.stampIcon_container}>
                     <Image
-                        src={"/img/Sello_Encriptado.png"}
+                        src={Sello_Encriptado}
                         alt={"Caribe Apuesta Logo"}
                         width={100}
                         height={100}
