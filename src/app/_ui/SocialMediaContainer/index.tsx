@@ -6,7 +6,6 @@ import CaribeLogo from '../../../../public/caribeApuestaLogo.svg'
 import CaribeWhatsapp from '../../../../public/icon/CaribeWhatsapp.svg'
 import CaribeInstagram from '../../../../public/icon/CaribeInstagram.svg'
 
-
 export const SocialMediaContainer = () => {
     let phoneNumber = '+58424-8236730';
     let message = 'Saludos CARIBEAPUESTA, ¿podrían brindarme su ayuda?'
