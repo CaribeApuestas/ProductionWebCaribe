@@ -3,33 +3,39 @@ import styles from "./styles.module.css";
 import Slider from "react-slick";
 import Image from "next/image";
 import { useEffect, useState } from "react";
+import banner1 from '../../../../public/img/banner1.jpg';
+import banner2 from '../../../../public/img/banner2.jpg';
+import imgSliderHome1 from '../../../../public/img//imgSliderHome1.jpg';
+import imgSliderHome2 from '../../../../public/img//imgSliderHome2.jpg';
+import banner1Mobile from '../../../../public/img/banner1_800.jpg';
+import banner2Mobile from '../../../../public/img/banner2_800.jpg';
 
 const listForDesktop = [
   {
-    src: "/img/banner1.jpg",
+    src: banner1,
     alt: "Te ofrecemos las mejores apuestas online.",
   },
   {
-    src: "/img/banner2.jpg",
+    src: banner2,
     alt: "¡Que esperas! Para empezar a ganar.",
   },
   {
-    src: "/img/imgSliderHome1.jpg",
+    src: imgSliderHome1,
     alt: "¿Que esperas para empezar a ganar?",
   },
   {
-    src: "/img/imgSliderHome2.jpg",
+    src: imgSliderHome2,
     alt: "Diversión y dinero en un solo lugar.",
   }
 ];
 
 const listForMobile = [
   {
-    src: "/img/banner1_800.jpg",
+    src: banner1Mobile,
     alt: "Te ofrecemos las mejores apuestas online.",
   },
   {
-    src: "/img/banner2_800.jpg",
+    src: banner2Mobile,
     alt: "¡Que esperas! Para empezar a ganar.",
   },
 ]
