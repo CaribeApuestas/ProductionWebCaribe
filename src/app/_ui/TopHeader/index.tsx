@@ -9,7 +9,7 @@ export const TopHeader = () => {
             <div className={styles.Header_Title_Container}>
                 <div className={styles.Header_Title}>
                     <Image
-                        src={"/caribeApuestaLogo.svg"}
+                        src={"./caribeApuestaLogo.svg"}
                         alt={"Caribe Apuesta Logo"}
                         width={50} height={50}
                     />
@@ -18,7 +18,7 @@ export const TopHeader = () => {
             </div>
             <div className={styles.Header_Logo}>
                 <Image
-                    src={"/img/LogoHeader.png"}
+                    src={"./img/LogoHeader.png"}
                     alt={"Caribe Apuesta Logo"}
                     width={921} height={379}
                 />
