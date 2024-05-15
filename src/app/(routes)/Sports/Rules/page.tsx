@@ -13,6 +13,7 @@ export const metadata: Metadata = {
     }
 };
 
+
 export default function Rules() {
     return (
         <div className={styles.container}>
