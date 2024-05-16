@@ -36,7 +36,7 @@ export default function BasketballLive() {
                     Tienen que quedar 5 minutos o menos del tiempo programado para que las apuestas sean válidas, a menos que el resultado específico del mercado ya este determinado.
                 </p>
                 <p>
-                    En mercados de 2 vías la regla del empate se aplica a menos que se especifique de otra forma. Lo arriesgado en apuestas individuales se reintegra, y en las múltiples/parlays se trata como una cancelación.
+                    En mercados de 2 vías la regla del empate se aplica a menos que se especifique de otra forma. Lo arriesgado en apuestas individuales se reintegra, y en las múltiples/parleys se trata como una cancelación.
                 </p>
                 <p>
                     Los mercados no incluyen el tiempo extra a menos que se especifique.
