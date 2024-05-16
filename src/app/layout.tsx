@@ -4,8 +4,6 @@ import "./_ui/globals.css";
 import 'normalize.css/normalize.css';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import SessionAuthProvider from "@/context/SessionAuthProvider";
-import QueryProvider from "@/context/QueryProvider";
 import { Menu } from "./_ui/Menu";
 import { TopHeader } from "./_ui/TopHeader";
 import { StampsContainer } from "./_ui/StampsContainer";
@@ -52,8 +50,6 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body className={`${gotham.className} antialiased`} >
-        <SessionAuthProvider> {/* nextAuth on client component */}
-          <QueryProvider > {/* React Query on client component */}
             <header>
               <TopHeader />
               <Menu />
@@ -75,8 +71,6 @@ export default function RootLayout({
             </footer>
             {/* Agregamos el nodo para el modal */}
             <div id="modal-root"></div>
-          </QueryProvider>
-        </SessionAuthProvider>
       </body>
     </html>
   );

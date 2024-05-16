@@ -64,7 +64,7 @@ export default function Rules() {
                     <span>1.15</span> - Cada cliente es totalmente responsable por mantener la confidencialidad de su cuenta de apuestas, y debe hacer el esfuerzo para prevenir el uso de su cuenta personal por terceros.
                 </p>
                 <p>
-                    <span>1.16</span> - Se prohíben los parlays del mismo equipo donde se le apuesta a la línea de diferencia de puntos (pointspread) y a la línea de dinero. Las apuestas múltiples no se aceptan donde el resultado de una parte de la apuesta contribuye con el resultado de la otra (jugadas correlacionadas).
+                    <span>1.16</span> - Se prohíben los parleys del mismo equipo donde se le apuesta a la línea de diferencia de puntos (pointspread) y a la línea de dinero. Las apuestas múltiples no se aceptan donde el resultado de una parte de la apuesta contribuye con el resultado de la otra (jugadas correlacionadas).
                 </p>
                 <p>
                     <span>1.17</span> - La calificación de las apuestas será realizada luego de que el evento haya finalizado. El ganador de un evento o juego se determinará en la fecha en que el evento se lleve a cabo.
@@ -170,7 +170,7 @@ export default function Rules() {
                     </li>
                     <li>
                         <p>
-                            <span>2.7.5</span> - En el caso de que tenga en su ticket un lanzador que no comenzó el juego las jugadas directas serán anuladas y el dinero apostado será devuelto. Los parlays serán recalculados sin esta selección.
+                            <span>2.7.5</span> - En el caso de que tenga en su ticket un lanzador que no comenzó el juego las jugadas directas serán anuladas y el dinero apostado será devuelto. Los parleys serán recalculados sin esta selección.
                         </p>
                     </li>
                     <li>
@@ -2203,7 +2203,7 @@ export default function Rules() {
                     </li>
                     <li>
                         <p>
-                            <span>11.10.2</span>. - En el caso de que se produzca un empate, el ganador será el jugador con la puntuación más baja en la ronda final. Si el empate persiste, las apuestas a la línea de dinero serán reembolsadas y los parlays serán recalculados.
+                            <span>11.10.2</span>. - En el caso de que se produzca un empate, el ganador será el jugador con la puntuación más baja en la ronda final. Si el empate persiste, las apuestas a la línea de dinero serán reembolsadas y los parleys serán recalculados.
                         </p>
                     </li>
                     <li>
@@ -2374,7 +2374,7 @@ export default function Rules() {
                     <span>13.3</span>. - Todos los partidos de rugby deben durar al menos 80 minutos para que sean válidos, excepto los partidos de pretemporada, que están programados para durar menos.
                 </p>
                 <p>
-                    <span>13.4</span>. - Si un partido de rugby se aplaza durante más de 48 horas respecto a su hora de inicio original, todas las apuestas de ese partido se considerarán anuladas/no válidas y se devolverá a su cuenta la cantidad apostada y los parlays serán recalculados.
+                    <span>13.4</span>. - Si un partido de rugby se aplaza durante más de 48 horas respecto a su hora de inicio original, todas las apuestas de ese partido se considerarán anuladas/no válidas y se devolverá a su cuenta la cantidad apostada y los parleys serán recalculados.
                 </p>
                 <p>
                     <span>13.5</span>. - Las apuestas se evaluarán según el resultado final de un evento (tiempo regular o tiempo extra dependiendo del caso

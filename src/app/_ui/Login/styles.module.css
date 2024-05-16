@@ -11,27 +11,31 @@
     font-size: 1rem;
     text-align: center;
     letter-spacing: 5px;
-    font-weight: 400;
-    color: #0ff;
+    font-weight: 500;
 }
 
 .prevLogin_linksContainer {
     display: flex;
     flex-direction: column;
-    gap: 1em;
+    gap: .5em;
     flex-wrap: wrap;
     width: 100%;
     max-width: 300px;
 }
 
 .prevLogin_links {
+    font-size: .8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
     background-color: #0ff;
     border-radius: 6px;
     letter-spacing: 2px;
-    height: 36px;
+    height: 32px;
     border: 2px solid #0ff;
     cursor: pointer;
-    font-family: "gotham-black";
     font-weight: 700;
     color: #01011b;
     text-align: center;
@@ -41,6 +45,10 @@
     line-height: 2;
     box-sizing: border-box;
     text-decoration: none;
+    font-size: .8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .prevLogin_links:hover {
