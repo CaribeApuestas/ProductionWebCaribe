@@ -31,7 +31,7 @@ export default function BeisbolLive() {
                     Los partidos de beisbol que no sean de la MLB (incluyendo ligas menores) no tendrán lanzadores designados y todas las apuestas serán “Action”. La regla de las 8½ entradas aplica, sin embargo en el caso que se aplique un “Mercy Rule” todas las apuestas se mantendrán con el marcador al momento de su aplicación. Para los partidos jugados como parte de una doble cartelera con solo 7 entradas, la regla de las 6½ entradas se aplicará.
                 </p>
                 <p>
-                    En los mercados de 2 vías aplican las reglas de empate a menos que se indique lo contrario. Lo arriesgado en apuestas individuales se reintegra y en selecciones múltiples/parlays la selección se trata como una cancelación.
+                    En los mercados de 2 vías aplican las reglas de empate a menos que se indique lo contrario. Lo arriesgado en apuestas individuales se reintegra y en selecciones múltiples/parleys la selección se trata como una cancelación.
                 </p>
                 <p>
                     Para cualquier partido suspendido de fase final en MLB que se reanude dentro de las siguientes 72 horas posteriores a su suspensión las apuestas se mantendrán y se pagarán después del término del juego. Si el juego no se reanuda en ese periodo de tiempo, todas las apuestas serán canceladas a menos que el pago de las apuestas ya este determinado.
