@@ -3,7 +3,7 @@ import Image from "next/image";
 import Link from "next/link";
 import styles from "./styles.module.css";
 import CaribeApuestaLogo from '../../../../public/caribeApuestaLogo.svg';
-import LogoHeader from '../../../../public/img/LogoHeader.png';
+import LogoHeader from '../../../../public/img/LOGOWEB.svg';
 
 export const TopHeader = () => {
     return (
