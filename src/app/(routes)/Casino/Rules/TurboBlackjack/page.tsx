@@ -86,7 +86,6 @@ export default function TurboBlackjack() {
                     </p>
                 </li>
             </ul>
-
             <p>
                 Usted y el dealer reciben dos cartas. Sus cartas se reparten boca arriba. Únicamente la segunda carta del dealer se reparte boca arriba. Si la banca recibe un As en su carta abierta, usted puede adquirir un seguro.
             </p>
@@ -218,7 +217,6 @@ export default function TurboBlackjack() {
             <p>
                 El resultado de la apuesta principal no tendrá efecto con ninguna otra apuesta (Rummy o Pares). Estas son completamente independientes.
             </p>
-
             <p>
                 <span>
                     Apuesta de Pares:

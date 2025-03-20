@@ -27,7 +27,7 @@
     margin: 0;
     letter-spacing: 1px;
     text-decoration: none;
-    color: cyan;
+    color: #00ffff;
 }
 
 .mediaIcons {
@@ -37,10 +37,22 @@
     gap: 1em;
 }
 
+.iconBorder {
+    border: 2px solid #01011B;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background: #01011B;
+}
+
 .mediaIcon {
     cursor: pointer;
     transform-origin: center center;
     transition: all 300ms linear;
+
 }
 
 .mediaIcon:hover {

@@ -56,6 +56,10 @@ export const informationNavigationItems: NavigationPageItemProps[] = [
     {
         path: '/Information/PlayerObligations',
         title: 'Obligación del Jugador',
+    },
+    {
+        path: '/Information/CalculatorParley',
+        title: 'Calculadora Parley',
     }
 ];
 export const pokerNavigationItems: NavigationPageItemProps[] = [
