@@ -1,0 +1,75 @@
+/* components/Modal.module.css */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    opacity: 0;
+    animation: fadeIn 0.3s forwards; /* Animación para que aparezca */
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes fadeOut {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+    }
+  }
+  
+  .modal {
+    background: #171638;
+    border: 2px solid cyan;
+    padding: 20px;
+    padding-top: 2em;
+    border-radius: 8px;
+    width: 90%;
+    max-width: 500px;
+    box-shadow: rgba(11, 138, 160, 0.25) 0px 54px 55px, rgba(11, 138, 160, 0.25) 0px -12px 30px, rgba(11, 138, 160, 0.25) 0px 4px 6px, rgba(11, 138, 160, 0.25) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    transform: scale(0.9);
+    animation: slideIn 0.3s ease-out forwards; /* Animación para que entre suavemente */
+  }
+  
+  @keyframes slideIn {
+    from {
+      transform: scale(0.9);
+    }
+    to {
+      transform: scale(1);
+    }
+  }
+  
+  @keyframes slideOut {
+    from {
+      transform: scale(1);
+    }
+    to {
+      transform: scale(0.9);
+    }
+  }
+  
+  .closeButton {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: cyan;
+  }

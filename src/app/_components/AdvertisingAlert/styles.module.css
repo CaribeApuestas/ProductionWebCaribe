@@ -1,0 +1,26 @@
+.imageContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.responsiveImage {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    aspect-ratio: 1 / 1; /* Mantiene la proporción cuadrada */
+    min-width: 300px;
+}
+
+@media (max-width: 500px) {
+    .responsiveImage {
+        max-width: 400px;
+    }
+}
+
+@media (max-width: 400px) {
+    .responsiveImage {
+        max-width: 320px;
+    }
+}

@@ -10,6 +10,7 @@ import { StampsContainer } from "./_ui/StampsContainer";
 import { SocialMediaContainer } from "./_ui/SocialMediaContainer";
 import { NavigationFooterContainer } from "./_ui/NavigationFooterContainer";
 import { FooterDetails } from "./_ui/FooterDetails";
+import AdvertinsingAlert from "./_components/AdvertisingAlert";
 
 export const metadata: Metadata = {
   title: "CaribeApuesta",
@@ -50,27 +51,22 @@ export default function RootLayout({
   return (
     <html lang="es">
       <body className={`${gotham.className} antialiased`} >
-            <header>
-              <TopHeader />
-              <Menu />
-            </header>
-
-
-            <main className="mainContent">
-              {children}
-            </main>
-
-
-            <footer className="Layout_footer">
-
-              <SocialMediaContainer />
-              <NavigationFooterContainer />
-              <StampsContainer />
-              <FooterDetails />
-              
-            </footer>
-            {/* Agregamos el nodo para el modal */}
-            <div id="modal-root"></div>
+        <header>
+          <TopHeader />
+          <Menu />
+        </header>
+        <main className="mainContent">
+          {children}
+          <AdvertinsingAlert />
+        </main>
+        <footer className="Layout_footer">
+          <SocialMediaContainer />
+          <NavigationFooterContainer />
+          <StampsContainer />
+          <FooterDetails />
+        </footer>
+        {/* Agregamos el nodo para el modal */}
+        <div id="modal-root"></div>
       </body>
     </html>
   );
